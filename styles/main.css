@@ -1,0 +1,77 @@
+@import url("./icomoon/style.css");
+@import url("./variables.css");
+@import url("./fonts.css");
+@import url("./sections/header.css");
+@import url("./sections/banner.css");
+@import url("./sections/services.css");
+@import url("./sections/proposal.css");
+@import url("./sections/tutors.css");
+@import url("./sections/review.css");
+@import url("./sections/recent-blogs.css");
+@import url("./sections/footer.css");
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 60px 100px;
+}
+
+.page__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page__title {
+  border-radius: 7px;
+  padding: 0px 7px;
+  width: 178px;
+  height: 51px;
+  background-color: var(--green);
+  font-weight: 500;
+  font-size: 40px;
+  color: var(--black);
+}
+
+.page__sub-title {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--black);
+  width: 580px;
+}
+
+.bg_green {
+  background-color: var(--green);
+}
+
+.bg_grey {
+  background-color: var(--grey);
+}
+
+.bg_dark {
+  background-color: var(--dark);
+}
+
+.c_dark {
+  color: var(--dark);
+}
+
+.c_green {
+  color: var(--green);
+}
+
+.c_grey {
+  color: var(--grey);
+}

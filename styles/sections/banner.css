@@ -1,0 +1,60 @@
+.banner .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 97px;
+  position: relative;
+  padding: 20px;
+}
+
+.banner-illustration {
+  top: 17px;
+  right: 0;
+  z-index: 0;
+  width: 600px;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 110px;
+}
+
+.message {
+  width: 531px;
+}
+
+.message__title {
+  font-weight: 500;
+  font-size: 60px;
+  color: var(--black);
+}
+
+.message__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.message__links {
+  border-radius: 14px;
+  padding: 20px 35px;
+  width: 264px;
+  height: 68px;
+  background-color: var(--dark);
+  margin: 35px 0 0 0;
+}
+
+.message__link {
+  color: var(--grey);
+}
+
+.list-collaborations {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+}
