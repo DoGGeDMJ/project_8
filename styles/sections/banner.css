@@ -38,6 +38,7 @@
   font-size: 20px;
   line-height: 140%;
   color: var(--black);
+  margin: 0 0 35px 0;
 }
 
 .message__links {
@@ -46,7 +47,6 @@
   width: 264px;
   height: 68px;
   background-color: var(--dark);
-  margin: 35px 0 0 0;
 }
 
 .message__link {

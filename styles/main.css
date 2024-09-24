@@ -5,9 +5,9 @@
 @import url("./sections/banner.css");
 @import url("./sections/services.css");
 @import url("./sections/proposal.css");
-@import url("./sections/tutors.css");
-@import url("./sections/review.css");
-@import url("./sections/recent-blogs.css");
+@import url("./sections/case-studies.css");
+@import url("./sections/working-process.css");
+@import url("./sections/team.css");
 @import url("./sections/footer.css");
 
 * {
@@ -37,12 +37,12 @@ body {
 .page__title {
   border-radius: 7px;
   padding: 0px 7px;
-  width: 178px;
   height: 51px;
   background-color: var(--green);
   font-weight: 500;
   font-size: 40px;
   color: var(--black);
+  margin: 0 47px 0 0;
 }
 
 .page__sub-title {

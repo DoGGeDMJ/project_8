@@ -1,0 +1,37 @@
+.case-studies__block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0 140px 0;
+  background-color: var(--dark);
+  border-radius: 45px;
+  padding: 70px 60px;
+  gap: 68px;
+}
+
+.case-studies__block > div:nth-child(2) {
+  padding: 0 60px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.case-studies__block-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  color: var(--grey);
+}
+
+.case-studies__block-card__desc {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+.case-studies__block-card__link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--green);
+}

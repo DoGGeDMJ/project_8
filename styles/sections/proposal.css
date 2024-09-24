@@ -14,22 +14,31 @@
   width: 100%;
   justify-content: space-between;
   gap: 110px;
+  margin: 100px 0 140px 0;
 }
 
 .proposal-illustration {
   top: 17px;
   right: 0;
   z-index: 0;
-  width: 600px;
 }
 
-.proposal .message__title {
+.proposal__content .message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.proposal__content .message__title {
   font-weight: 500;
   font-size: 30px;
   color: var(--black);
-  margin: 0 0 36px 0;
 }
 
-.proposal .message__sub-title {
-  padding: 0 0 36px 0;
+.proposal__content .message__desc {
+  padding: 26px 0 0 0;
+}
+
+.proposal__content .message__links {
+  margin: 0;
 }
