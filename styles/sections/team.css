@@ -9,17 +9,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
   justify-self: left;
-  width: 387px;
 }
 
 .team__elements__card {
   border: 1px solid var(--dark);
   border-radius: 45px;
   padding: 50px;
-  height: 310px;
   display: flex;
   flex-direction: column;
-  width: 387px;
 }
 
 .team__elements__card__top {
@@ -44,16 +41,35 @@
   justify-content: start;
   align-items: center;
 }
+
 .team__elements__card__top__name {
   font-weight: 700;
   font-size: 20px;
 }
+
 .team__elements__card__top__prof {
   font-weight: 400;
   font-size: 18px;
 }
+
 .team__elements__card__bottom {
   margin: 28px 0 0 0;
   font-weight: 400;
   font-size: 18px;
+}
+
+.team_list {
+  text-align: right;
+  margin: 40px 0 0 0;
+}
+
+.team__link {
+  background-color: var(--dark);
+  color: var(--grey);
+  border-radius: 14px;
+  padding: 20px 35px;
+  width: 269px;
+  height: 68px;
+  font-weight: 400;
+  font-size: 20px;
 }

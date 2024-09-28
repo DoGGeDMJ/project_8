@@ -1,0 +1,85 @@
+.testimonials .page__info {
+  margin: 100px 0 80px 0;
+}
+
+.carousel-info {
+  margin: 0 0 60px 0;
+}
+
+.carousel-info {
+  position: relative;
+  background-color: var(--dark);
+  padding: 150px 0;
+  border-radius: 45px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--green);
+  width: 12px;
+  height: 12px;
+  border-radius: 0%;
+}
+
+.carousel-indicators [data-bs-target].active {
+  background-color: blue;
+}
+
+.carousel-control-next {
+}
+
+.carousel-item {
+  overflow: hidden;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  width: 502px;
+  /* height: 600px; */
+  transition: transform 0.3s ease;
+  background-color: var(--dark);
+  color: var(--grey);
+  --bs-card-border-color: none;
+}
+
+.cover-card {
+  position: relative;
+  width: 606px;
+  padding: 50px;
+}
+
+.carousel-caption {
+  position: absolute;
+  text-align: left;
+  width: 502px;
+  font-size: 18px;
+  font-weight: 400;
+  top: -20px;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  padding: 52px;
+  z-index: 2;
+}
+
+.card-left,
+.card-right {
+  /* position: absolute; */
+  top: 0;
+  width: 40%; /* Ширина для срезания половин */
+}
+.card-left {
+  left: -140px; /* Сдвиг влево для срезания */
+}
+.card-right {
+  right: -140px; /* Сдвиг вправо для срезания */
+}
+
+.card-body {
+  margin: 20px 0 0 0;
+}

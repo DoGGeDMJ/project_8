@@ -8,6 +8,7 @@
   gap: 30px;
   margin: 0 0 140px 0;
 }
+
 .working-process__cards > div:nth-child(1) {
   margin: 80px 0 0 0;
   background-color: var(--green);
@@ -29,7 +30,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 0 30px 0; */
 }
 
 .working-process__card-info__counter {

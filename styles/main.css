@@ -8,7 +8,7 @@
 @import url("./sections/case-studies.css");
 @import url("./sections/working-process.css");
 @import url("./sections/team.css");
-@import url("./sections/footer.css");
+@import url("./sections/testimonials.css");
 
 * {
   box-sizing: border-box;
@@ -22,6 +22,7 @@ a {
 body {
   text-decoration: none;
   box-sizing: border-box;
+  background-color: aquamarine;
 }
 
 .header {
