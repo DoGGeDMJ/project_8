@@ -28,7 +28,8 @@
 }
 
 .carousel-item {
-  overflow: hidden;
+  /* overflow: hidden; */
+  padding: 4rem 0;
 }
 
 .card-wrapper {
@@ -41,52 +42,52 @@
   position: relative;
   width: 560px;
   height: 250px;
-  padding: 40px;
   transition: transform 0.3s ease;
-  background-color: var(--dark);
+  background-color: transparent;
   color: var(--grey);
   --bs-card-border-color: none;
   margin: 0 auto;
-
-  /* padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden; */
 }
 
 .card::before {
-  z-index: 1;
   content: "";
-  width: 100%;
-  height: 100%;
+  z-index: 1;
   position: absolute;
-  left: 0;
-  top: 0;
-  background: url("../../assets/bubble.png") no-repeat;
-  background-size: contain;
+  left: 10%;
+  bottom: 16px;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid orange;
+  transform: translate(0, 100%) rotate(45deg);
+}
+
+.card::after {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  left: 10%;
+  bottom: 18px;
+  width: 2rem;
+  height: 2rem;
+  /* background-color: blue; */
+  background-color: var(--dark);
+  transform: translate(0, 100%) rotate(45deg);
 }
 
 .card > div {
   z-index: 2;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--dark);
+  border: 2px solid orange;
+  border-radius: 40px;
 }
 
 .cover-card {
   position: relative;
   width: 606px;
   padding: 50px;
-}
-
-.carousel-caption {
-  /* position: absolute; */
-  text-align: left;
-  /* width: 502px; */
-  font-size: 18px;
-  font-weight: 400;
-  top: -20px;
-  left: 0;
-  display: flex;
-  justify-content: left;
-  padding: 52px;
-  z-index: 2;
 }
 
 .card-left,
