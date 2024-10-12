@@ -83,7 +83,6 @@
   .service__elements {
     display: grid;
     width: 100%;
-    margin: 0 0 0 10px;
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
@@ -93,7 +92,7 @@
     justify-content: left;
     flex-direction: column;
     position: relative;
-    width: 390px;
+    width: 100%;
   }
 
   .service__elements__card-info-top {
