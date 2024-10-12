@@ -77,4 +77,12 @@
     width: 290px;
     margin: 0 0 0 50px;
   }
+
+  .message .message__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 90%;
+  }
 }

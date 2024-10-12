@@ -123,6 +123,16 @@
 }
 
 @media (max-width: 430px) {
+  .radio__item input {
+    font-size: 16px;
+    margin: 0 0 0 60px;
+    padding: 0;
+  }
+
+  .radio__item {
+    font-size: 16px;
+  }
+
   .contacts .page__info {
     display: flex;
     flex-direction: column;
@@ -168,7 +178,7 @@
   }
 
   .contacts .message__links {
-    width: 390px;
+    width: 120%;
     margin: 0 0 0 -30px;
     /* padding: 20px 35px; */
   }
