@@ -52,3 +52,46 @@
   font-weight: 400;
   font-size: 18px;
 }
+
+@media (max-width: 430px) {
+  .working-process .page__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .working-process .page__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 242px;
+    margin: 50px 0 30px 0;
+    height: 100px;
+    font-weight: 500;
+    font-size: 36px;
+  }
+
+  .working-process .page__sub-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+
+  .working-process__cards > div:nth-child(1) {
+    margin: 0;
+  }
+
+  .working-process__cards {
+    margin: 0 0 60px 0;
+  }
+
+  .working-process__card-info__title {
+    font-weight: 500;
+    font-size: 18px;
+  }
+}

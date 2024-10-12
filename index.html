@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/icomoon/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script src="./scripts/carousel.js" defer></script>
-    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <header class="container">
@@ -104,7 +105,9 @@
               </div>
             </div>
             <a href="#" class="service__elements__card-link">
-              <img src="./assets/green-arrow.svg" alt="green-arrow" />Learn more
+              <img src="./assets/green-arrow.svg" alt="green-arrow" /><span
+                >Learn more</span
+              >
             </a>
             <img
               class="service__elements__card-photo"
@@ -122,7 +125,8 @@
               </div>
             </div>
             <a href="#" class="service__elements__card-link">
-              <img src="./assets/green-arrow.svg" alt="green-arrow" />Learn more
+              <img src="./assets/green-arrow.svg" alt="green-arrow" />
+              <span>Learn more</span>
             </a>
             <img
               class="service__elements__card-photo"
@@ -140,7 +144,8 @@
               </div>
             </div>
             <a href="#" class="service__elements__card-link c_grey">
-              <img src="./assets/dark-arrow.svg" alt="dark-arrow" />Learn more
+              <img src="./assets/dark-arrow.svg" alt="dark-arrow" />
+              <span>Learn more</span>
             </a>
             <img
               class="service__elements__card-photo"
@@ -156,7 +161,8 @@
               </div>
             </div>
             <a href="#" class="service__elements__card-link">
-              <img src="./assets/green-arrow.svg" alt="green-arrow" />Learn more
+              <img src="./assets/green-arrow.svg" alt="green-arrow" />
+              <span>Learn more</span>
             </a>
             <img
               class="service__elements__card-photo"
@@ -174,7 +180,8 @@
               </div>
             </div>
             <a href="#" class="service__elements__card-link">
-              <img src="./assets/green-arrow.svg" alt="green-arrow" />Learn more
+              <img src="./assets/green-arrow.svg" alt="green-arrow" />
+              <span>Learn more</span>
             </a>
             <img
               class="service__elements__card-photo"
@@ -192,7 +199,8 @@
               </div>
             </div>
             <a href="#" class="service__elements__card-link c_grey">
-              <img src="./assets/dark-arrow.svg" alt="dark-arrow" />Learn more
+              <img src="./assets/dark-arrow.svg" alt="dark-arrow" />
+              <span>Learn more</span>
             </a>
             <img
               class="service__elements__card-photo"
@@ -516,146 +524,211 @@
             about Our Digital Marketing Services
           </div>
         </div>
-
-        <div class="carousel-info">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide-to="4"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#myCarousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div
-            id="myCarousel"
-            class="carousel slide container"
-            data-bs-ride="myCarousel"
-          >
-            <div class="carousel-inner d-block w-100">
-              <div class="carousel-item active" data-bs-interval="1000000">
-                <div class="card">
-                  <div>
-                    "We have been working with Positivus for the past year and
-                    have seen a significant increase in website traffic and
-                    leads as a result of their efforts. The team is
-                    professional, responsive, and truly cares about the success
-                    of our business. We highly recommend Positivus to any
-                    company looking to grow their online presence."
-                  </div>
+        <div class="slide-wrapper">
+          <div class="slider">
+            <div class="slider__item">
+              <div class="slider__item__text">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </div>
+              <div class="slider__item__text__bottom">
+                <div class="slider__item__text__bottom__author">John Smith</div>
+                <div class="slider__item__text__bottom__prof">
+                  Marketing Director at XYZ Corp
                 </div>
               </div>
-              <!-- <div class="carousel-item">
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="card card-body">Card 4</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 5</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 6</div>
-                  </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__item__text">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </div>
+              <div class="slider__item__text__bottom">
+                <div class="slider__item__text__bottom__author">John Smith</div>
+                <div class="slider__item__text__bottom__prof">
+                  Marketing Director at XYZ Corp
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="card card-body">Card 7</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 8</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 9</div>
-                  </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__item__text">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </div>
+              <div class="slider__item__text__bottom">
+                <div class="slider__item__text__bottom__author">John Smith</div>
+                <div class="slider__item__text__bottom__prof">
+                  Marketing Director at XYZ Corp
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="card card-body">Card 10</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 11</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 12</div>
-                  </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__item__text">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </div>
+              <div class="slider__item__text__bottom">
+                <div class="slider__item__text__bottom__author">John Smith</div>
+                <div class="slider__item__text__bottom__prof">
+                  Marketing Director at XYZ Corp
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row justify-content-center">
-                  <div class="col-4">
-                    <div class="card card-body">Card 13</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 14</div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card card-body">Card 15</div>
-                  </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__item__text">
+                "We have been working with Positivus for the past year and have
+                seen a significant increase in website traffic and leads as a
+                result of their efforts. The team is professional, responsive,
+                and truly cares about the success of our business. We highly
+                recommend Positivus to any company looking to grow their online
+                presence."
+              </div>
+              <div class="slider__item__text__bottom">
+                <div class="slider__item__text__bottom__author">John Smith</div>
+                <div class="slider__item__text__bottom__prof">
+                  Marketing Director at XYZ Corp
                 </div>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <section class="contacts">
+      <div class="container">
+        <div class="page__info">
+          <div class="page__title">Contact Us</div>
+          <div class="page__sub-title">
+            Connect with Us: Let's Discuss Your Digital Marketing Needs
+          </div>
+        </div>
+        <div class="form-container">
+          <img src="./assets/two-stars.png" alt="" />
+          <div class="form-field__top">
+            <label class="radio__item"
+              >Say Hi
+              <input type="radio" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="radio__item"
+              >Get a Quote
+              <input type="radio" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <!-- </div> -->
+
+            <!-- <div class="form-field"> -->
+            <label for="email">Email*</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <!-- </div> -->
+
+            <!-- <div class="form-field"> -->
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              class="message-field"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <div class="message__links">
+            <a class="message__link" href="#">Send Message</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer_nav">
+            <img src="./assets/logo-white.png" alt="logo" />
+            <div class="footer_nav__links">
+              <a href="#">About us</a>
+              <a href="#">Services</a>
+              <a href="#">Use Cases</a>
+              <a href="#">Pricing</a>
+              <a href="#">Blog</a>
+            </div>
+            <div class="footer_nav__media">
+              <a href="#"><span class="icon-linked media-icon"></span></a>
+              <a href="#"><span class="icon-facebook media-icon"></span></a>
+              <a href="#"
+                ><span class="icon-circle_twitter media-icon"></span
+              ></a>
+            </div>
+          </div>
+          <div class="footer__info">
+            <div class="footer__info__contacts">
+              <div class="footer__info__contacts__title">Contact us:</div>
+              <div class="footer__info__contacts__email">
+                Email: info@positivus.com
+              </div>
+              <div class="footer__info__contacts__phone">
+                Phone: 555-567-8901
+              </div>
+              <div class="footer__info__contacts__adress">
+                Address: 1234 Main St
+                <div>Moonstone City, Stardust State 12345</div>
+              </div>
+            </div>
+
+            <div class="footer__info__subsc-news">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <button>Subscribe to news</button>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            © 2023 Positivus. All Rights Reserved.
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js">
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+        crossorigin="anonymous"
+    </script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/carousel.js"></script>
   </body>
 </html>

@@ -9,20 +9,31 @@
 @import url("./sections/working-process.css");
 @import url("./sections/team.css");
 @import url("./sections/testimonials.css");
+@import url("./slick.css");
+@import url("./icomoon/style.css");
+@import url("./sections/contacts.css");
+@import url("./sections/footer.css");
 
 * {
   box-sizing: border-box;
   font-family: var(--font-family);
 }
 
-a {
+.container {
+  overflow: hidden;
+}
+
+:is(.services) a {
   text-decoration: none;
+  /* color: var(--dark); */
 }
 
 body {
   text-decoration: none;
   box-sizing: border-box;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+
+  /* overflow: hidden; */
 }
 
 .header {

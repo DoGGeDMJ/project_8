@@ -1,31 +1,23 @@
 $(document).ready(function () {
-  const maxPerSlide = 2;
-  const className = ".carousel-responsive";
-
-  document
-    .querySelectorAll(`${className} .carousel-item`)
-    .forEach((element) => {});
-
-  $(`${className} .carousel-item`).each(function () {
-    let $currentItem = $(this);
-    let $next = $currentItem.next().length
-      ? $currentItem.next()
-      : $currentItem.siblings(":first");
-
-    for (let i = 0; i < maxPerSlide; i++) {
-      const $firstCard = $next.children(":first-child");
-      if ($firstCard.length) {
-        $firstCard.clone().appendTo($currentItem);
-        $next = $next.next().length
-          ? $next.next()
-          : $currentItem.siblings(":first");
-      }
-    }
+  $(".slider").slick({
+    infinite: true,
+    dots: true,
+    slidesToShow: 3,
+    centerMode: true,
+    speed: 1000,
+    cssEase: "ease-in-out",
+    // autoplay: true,
+    autoplaySpeed: 5000,
+    variableWidth: true,
+    prevArrow:
+      '<button type="button" class="slick-prev"><span class="icon-arrow-left"></span></button>',
+    nextArrow:
+      '<button type="button" class="slick-next"><span class="icon-arrow-right"></span></button>',
   });
+});
 
-  function updateCardStyles() {
-    $("carousel-item .card").removeClass("active-card").addClass("card"); //
-  }
-
-  updateCardStyles();
+$(".slider").on("init", function (event, slick) {
+  $(".slick-dots li button").each(function () {
+    $(this).html('<span class="icon-star"></span>');
+  });
 });

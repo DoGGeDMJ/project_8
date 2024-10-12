@@ -42,3 +42,39 @@
 .proposal__content .message__links {
   margin: 0;
 }
+
+@media (max-width: 430px) {
+  .proposal-illustration img {
+    display: none;
+  }
+
+  .proposal .container {
+    padding: 0 20px;
+  }
+
+  .proposal__content {
+    margin: 20px 0 0 0;
+  }
+
+  .proposal__content .message {
+    justify-content: start;
+  }
+
+  .proposal__content .message__title {
+    width: 290px;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 50px 50px 20px 50px;
+  }
+
+  .proposal__content .message__desc {
+    width: 290px;
+    padding: 0;
+    margin: 0 50px 20px 50px;
+  }
+
+  .proposal__content .message__links {
+    width: 290px;
+    margin: 0 0 0 50px;
+  }
+}

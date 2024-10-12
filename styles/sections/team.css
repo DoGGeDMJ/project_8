@@ -73,3 +73,35 @@
   font-weight: 400;
   font-size: 20px;
 }
+
+@media (max-width: 430px) {
+  .team .page__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team .page__title {
+    margin: 0;
+  }
+
+  .team .page__sub-title {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin: 30px 0 0 0;
+  }
+
+  .team__elements {
+    grid-template-columns: 1fr;
+  }
+
+  .team_list {
+    text-align: center;
+  }
+
+  .team__link {
+    width: 390px;
+  }
+}

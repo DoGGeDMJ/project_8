@@ -34,4 +34,42 @@
   font-size: 20px;
   line-height: 140%;
   color: var(--green);
+  text-decoration: none;
+}
+
+@media (max-width: 430px) {
+  .case-studies .page__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .case-studies .page__sub-title {
+    margin: 30px 0 40px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    width: 390px;
+  }
+
+  .case-studies__block {
+    flex-direction: column;
+    background-color: white;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .case-studies__block-card {
+    background-color: var(--dark);
+    border-radius: 45px;
+    padding: 42px 70px 42px 70px;
+    width: 100%;
+  }
+
+  .case-studies__block > div:nth-child(2) {
+    padding: 42px 70px 42px 70px;
+  }
 }
