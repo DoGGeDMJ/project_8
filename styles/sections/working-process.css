@@ -90,6 +90,10 @@
     margin: 0 0 60px 0;
   }
 
+  .working-process__card {
+    padding: 30px;
+  }
+
   .working-process__card-info__title {
     font-weight: 500;
     font-size: 18px;
