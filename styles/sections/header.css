@@ -38,3 +38,35 @@ header button {
   height: 68px;
   background-color: #fff;
 }
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  .burger {
+    display: block;
+    border: none;
+    padding: 0;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 20px 0 20px;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  header button {
+    display: none;
+  }
+}
