@@ -158,6 +158,16 @@ footer .container {
     gap: 22px;
   }
 
+  .footer__info__subsc-news input {
+    width: 100%;
+    margin: 0;
+  }
+
+  .footer__info__subsc-news button {
+    width: 100%;
+    text-decoration: none !important;
+  }
+
   .footer__bottom {
     display: flex;
     flex-direction: column;
@@ -173,10 +183,6 @@ footer .container {
   .footer__info__contacts__phone,
   .footer__info__contacts__adress {
     text-decoration: none !important;
-  }
-
-  .footer__info__subsc-news button {
-    text-decoration: none;
   }
 
   .footer__bottom a {
