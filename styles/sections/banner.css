@@ -81,7 +81,7 @@
     order: 0;
     display: block;
     width: 390px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 43px;
     margin: 0 20px 310px 0;
   }
@@ -91,6 +91,7 @@
     width: 390px;
     top: 200px;
     right: 20px;
+    margin: 20px 0 0 0;
   }
 
   .message__desc {
