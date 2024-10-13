@@ -172,7 +172,7 @@ footer .container {
   .footer__info__contacts__email,
   .footer__info__contacts__phone,
   .footer__info__contacts__adress {
-    text-decoration: none;
+    text-decoration: none !important;
   }
 
   .footer__info__subsc-news button {

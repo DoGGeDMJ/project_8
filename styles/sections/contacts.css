@@ -163,7 +163,6 @@
   .form-field__top {
     margin: 0 0 0 22px;
     gap: 60px;
-    text-wrap: wrap;
   }
 
   .contacts .form-field input {

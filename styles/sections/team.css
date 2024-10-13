@@ -109,4 +109,8 @@
     position: absolute;
     right: 0;
   }
+
+  .team__elements__card {
+    padding: 40px 35px;
+  }
 }
