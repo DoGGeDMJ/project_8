@@ -72,8 +72,6 @@ footer .container {
   color: var(--dark);
   border-radius: 7px;
   padding: 0px 7px;
-  width: 126px;
-  height: 26px;
   font-weight: 700;
   font-size: 20px;
 }
@@ -167,9 +165,22 @@ footer .container {
     justify-content: center;
     padding: 37px;
     gap: 15px;
-    /* margin: 50px; */
-    /* padding: 50px 0; */
     border-top: 1px solid #ffffff;
     position: relative;
+  }
+
+  .footer__info__contacts__email,
+  .footer__info__contacts__phone,
+  .footer__info__contacts__adress {
+    text-decoration: none;
+  }
+
+  .footer__info__subsc-news button {
+    text-decoration: none;
+  }
+
+  .footer__bottom a {
+    margin: 0;
+    text-decoration: none;
   }
 }
