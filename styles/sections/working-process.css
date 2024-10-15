@@ -9,13 +9,12 @@
   margin: 0 0 140px 0;
 }
 
-.working-process__cards > div:nth-child(1) {
-  margin: 80px 0 0 0;
-  background-color: var(--green);
+.working-process__cards > .tolik .working-process__card-info {
+  padding: 0 0 30px 0;
 }
 
-.working-process__cards > div:nth-child(1) .working-process__card-info {
-  padding: 0 0 30px 0;
+.working-process__cards > div:nth-child(1) {
+  margin: 80px 0 0 0;
 }
 
 .working-process__card {
@@ -23,6 +22,27 @@
   border-radius: 45px;
   padding: 41px 60px;
   box-shadow: 0 5px 0 0 var(--dark);
+  cursor: pointer;
+}
+
+.working-process__card:focus {
+  background-color: var(--green);
+}
+
+.working-process__card .minus-icon {
+  display: none;
+}
+
+.working-process__card:focus .plus-icon {
+  display: none;
+}
+
+.working-process__card:focus .minus-icon {
+  display: block;
+}
+
+.working-process__card:focus .working-process__card-desc {
+  display: block;
 }
 
 .working-process__card-info {
@@ -47,10 +67,12 @@
 }
 
 .working-process__card-desc {
+  margin-top: 30px;
   padding: 30px 0 0 0;
   border-top: 2px solid black;
   font-weight: 400;
   font-size: 18px;
+  display: none;
 }
 
 @media (max-width: 430px) {
